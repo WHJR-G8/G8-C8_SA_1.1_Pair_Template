@@ -15,8 +15,10 @@ def draw_rect(s1,s2):
         turtle.right(90)
     
     turtle.end_fill()
-    
-position(10,-10,"red")
+
+#Student 1
+
+#Call the function "position" and pass the paremeters as 10, -10, "red"
 
 for i in range(3):
     turtle.forward(100)
@@ -24,16 +26,19 @@ for i in range(3):
     
 turtle.end_fill()
 
-position(10,-10,"green")
+#Call the function "position" and pass the paremeters as 85, -40, "blue"
 
-draw_rect(100,150)
+#Call the function "draw_rect" and pass the paremeters as 40, 150
 
-position(85,-40,"blue")
 
-draw_rect(40,150)
+#Student 2
 
-position(-5,-40,"blue")
+#Call the function "position" and pass the paremeters as 10, -10, "green"
 
-draw_rect(40,150)
+#Call the function "draw_rect" and pass the paremeters as 100, 150
+
+#Call the function "position" and pass the paremeters as -5, -40, "blue"
+
+#Call the function "draw_rect" and pass the paremeters as 40, 150
 
 turtle.ht()
